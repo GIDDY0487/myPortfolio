@@ -1,0 +1,106 @@
+.main-container{
+    /* display:flex; */
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.header{
+    display:flex;
+    background-color: red;
+    justify-content: space-between;
+}
+
+.my-name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+    color: white;
+    margin-left: 20px;
+}
+
+.nav{
+    display: flex;
+    /* margin-left: 100px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    text-transform: uppercase;
+    color: white;
+    /* justify-items: end; */
+}
+
+.nav p{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.home{
+    display: grid;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.home .graphic_design{
+    background-image: url(/images/ilovethis.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.home .computer_networking{
+    background-image: url(/images/control-panel.jpeg);
+    background-size: cover;  
+    /* background-repeat: no-repeat;  */
+}
+
+.graphic_design{
+    color: white;
+    text-align: center;
+}
+
+.computer_networking{
+    color: white;
+    text-align: center;
+}
+
+.graphic_design, button{
+    color: white;
+}
+
+.service{
+    display: grid;
+}
+
+.service .branding{
+    display: flex;
+}
+
+.service .branding img{
+    width: 50%;
+}
+
+.service .branding .about-branding{
+    text-align: center;
+    
+}
+
+.service .printing{
+    display: flex;
+}
+
+.service .printing img{
+    width: 50%;
+}
+
+.service .printing .about-printing{
+    text-align: center;
+}
+
+.service .web{
+    display: flex;
+}
+
+.service .web img{
+    width: 50%;
+}
+.service .web .about-web{
+    text-align: center;
+}
